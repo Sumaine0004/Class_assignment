@@ -1,32 +1,38 @@
 body{
-  background-image: url(nat.jpg);
-  background-position: fixed;
+  background-color: rgba(30, 216, 241, 0.822);
   margin: 0%;
   margin-bottom: 0%;
   padding-bottom: 0%;
 }
 .man{
-  display: flex;
-  flex-direction: column;
-  gap: 2%;
-
+  margin-bottom: 19.5%;
 }
 .main{
   font-family: 'Lucida Sans';
-  display: flex;
+  
 }
 .img{
   border-radius: 10%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   margin-left: 30%;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .img1{
-  margin-top: 5%;
+  margin-top: 2%;
   border-radius: 10%;
-  height: 35%;
+  height: 25%;
   width: 29%;
   margin-left: 35%;
-
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.img1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .img2{
   height: 20%;
@@ -36,7 +42,7 @@ body{
   margin-top: 0%;
   display: flex;
   gap: 50%;
-  background-color: rgba(0, 191, 255, 0.166);
+  background-color: rgba(0, 195, 255, 0.488);
   padding-right: 25%;
 }
 .nav{
@@ -48,6 +54,7 @@ body{
   gap: 15%;
   font-size: 120%;
   text-align: center;
+  padding-top: ;
   padding-right: 0%;
   padding-left: 10%;
   color: white;
@@ -55,7 +62,7 @@ body{
   
 }
 .al:hover{
-  color: rgba(30, 216, 241, 0.822);
+  color: rgba(30, 216, 241, 0.981);
   background-color: white;
 }
 .al:active{
@@ -63,7 +70,7 @@ body{
 }
 .abt{
   font-family: 'Lucida Sans';
-  margin-top: 5%;
+  margin-top: 1%;
   margin-right: 15%;
   margin-left: 15%;
   padding-top: 2%;
@@ -71,7 +78,12 @@ body{
   padding-left: 5%;
   padding-right: 5%;
   border-radius: 10%;
-  background-color: rgba(255, 255, 255, 0.353);
+  background-color: rgba(0, 195, 255, 0.221);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.abt:hover{
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .tt{
   text-align: center;
@@ -81,22 +93,18 @@ body{
 }
 .txtsec{
   margin-right: 5%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   height: 50%;
   padding: 2%;
   background-color: rgba(255, 255, 255, 0.262);
   border-radius: 5%;
+  transition: transform 0.15s, box-shadow 0.15s;
 }
-.otd{
-  margin-top: -10%;
-  margin-bottom: 10%;
-  font-family: 'Lucida Sans';
-  padding-left: 3%;
-  padding-right: 3%;
-  text-align: center;
-  border-radius: 2%;
-  background-color: rgba(255, 255, 255, 0.182);
+.txtsec:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .al{
   color: white;
@@ -109,17 +117,21 @@ body{
   text-decoration: none;
   font-weight: bold;
   font-size: 100%;
-  background-color: rgba(0, 191, 255, 0.858);
   border: none;
   border-radius: 35%;
   height: 35%;
   width: 250%;
   margin-right: 10%;
 }
+.al:hover{
+  background-color: rgba(0, 191, 255, 0.482);
+  color: white;
+}
 .foot{
-  background-color: rgb(22, 128, 249);
+  background-color: rgba(0, 195, 255, 0.488);
   text-align: center;
   padding-left: 2%;
+  margin-bottom: 0%;
 }
 .ftext{
   list-style: none;
